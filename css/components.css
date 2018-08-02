@@ -1,0 +1,210 @@
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #4071b6;
+}
+/* ======== HEADER ============ */
+header {
+  background: #4071b6 url("/img/recycle-back.png") no-repeat scroll 40px 0;
+}
+
+.logo {
+
+}
+a.nav-logo {
+  background-color: #f1f1f1;
+  padding: 10px 24px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 6px;
+  color: #115eaa;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+nav .primary-nav { 
+  width: 90%;
+  display: inline-block;
+}
+
+ul {
+float: right;
+margin-top: 20px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #a0b8db;
+  padding: 8px 10px;
+  
+}
+
+/* ======= USER FORM SECTION =========== */
+
+#user_form {
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+.form-blurb ,strong {
+  color: #ffffff;
+  font-size: 1.4em;
+  padding: 80px 0 30px 0;
+}
+input, select, option, button{
+  background-color: #004b8e;
+  border: none;
+  border-radius: 5px;
+  color: #4d7abc;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+input:placeholder-shown {
+  color: #759edd;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+button[type=submit] {
+    background-color: #f1f1f1;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #4d7abc;
+    font-weight: bold;
+}
+
+.submit-checkbox {
+  padding-top: 50px;
+}
+.submit-checkbox span {
+  color: #ffffff;
+  font-size: 1.4em;
+  padding-left: 40px;
+}
+
+/* ======= PLEDGE INFO SECTION =========== */
+.pledge_info { 
+ 
+  width: 100%;
+  background-color: #4d7abc;
+  text-align: center;
+}
+
+.pledge_column-A {
+
+  width: 50%;
+  height: 500px;
+  float: left;
+  box-sizing: border-box;
+  background-color: #4d7abc;
+}
+
+.pledge-counter {
+  margin-top: 50px;
+  width: 60%;
+  height: 400px;
+ color: white;
+  background-color: #4d7abc;
+  font-size: 2.2em;
+  font-weight: bold;
+  padding-left: 120px;
+}
+.white-text {
+  color: white;
+}
+
+span.count {
+  font-size: 2.8em;
+  color: #5affa8;
+  font-weight: 700;
+}
+
+
+/* ======= DATA VISUALIZATION SECTION ==== */
+.pledge_column-B {
+  height: 500px;
+  width: 50%;
+
+  float: right;
+  box-sizing: border-box;
+  background-color: #4d7abc;
+  
+}
+
+.pledge-data {
+  margin-top: 50px;
+  height: 400px;
+  width: 100%;
+  background-color: #4d7abc;
+  
+}
+
+
+.data-vis {
+  width: 60%;
+  height: 400px;
+ color: white;
+  background-color: #4d7abc;
+  font-size: 2.2em;
+  font-weight: bold;
+  padding-right: 120px;
+  text-align: left;
+}
+
+ul.data-vis .data-graph-heading {
+  font-size: .7em;
+  color: white;
+}
+li.data-col-a {
+  display: inline-block;
+  background-color: #4071b6;
+  color: #004b8e;
+  font-size: .5em;
+}
+
+
+
+
+.center-graphic {
+  border-left: 1px solid white;
+  margin-top: 50px;
+  height: 400px;
+  position: absolute;
+  margin-left: 50vw;
+}
+.center-graphic img {
+  margin-top: 140px;
+  margin-left: -54px;
+  position: relative;
+}
+
+/* ========= FOOTER ========== */
+footer {
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+footer span {
+  font-weight: 2em;
+  color: #4d7abc;
+  padding: 30px;
+  display: block;
+}
